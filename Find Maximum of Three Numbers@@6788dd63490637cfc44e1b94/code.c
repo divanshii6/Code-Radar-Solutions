@@ -7,17 +7,16 @@ int main() {
         printf("%d",a);
     }
     else{
-        if(c>b){
             printf("%d",c);
         }
-        else{
-            printf("%d",b);
-
-        }
     }
-   }
    else{
-    printf("%d",b);
+     if(b>c){
+        printf("%d",b);
+     }
+     else{
+        printf("%d",c);
+     }
    }
     return 0;
 }
