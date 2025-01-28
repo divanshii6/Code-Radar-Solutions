@@ -5,11 +5,11 @@ int main() {
    if(cp<sp){
     printf("Profit");
    }
-   else if(sp>cp){
-    printf("Loss");
+   else if(sp==cp){
+    printf("No Profit No Loss");
    }
    else{
-    printf("No Profit No Loss");
+    printf(" Loss");
    }
     return 0;
 }
