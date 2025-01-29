@@ -4,7 +4,7 @@ int main() {
     char c;
     scanf("%d %d %c",&a,&b,&c);
     switch(c){
-        case '+':printf("%f",a+b);switch;
+        case '+':printf("%f",a+b);break;
         case '-':printf("%f",a-b);break;
         case '*':printf("%f",a*b);break;
         case '/':printf("%f",a/b);break;
