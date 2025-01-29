@@ -17,10 +17,10 @@ int main() {
             if(b==0){
                 printf("error\n");
             }
-            else{
-                printf("%.0f\n",(float)a/b);
-            }
-        break;
+                else{
+                    printf("%.0f\n",(float)a/b);
+                }
+            break;
         default:
             printf("error");
             break;
