@@ -5,20 +5,20 @@ int main() {
     scanf("%f %f %c",&a,&b,&c);
     switch(c){
         case '+':
-            printf("%f",a+b);
+            printf("%.0f",a+b);
             break;
         case '-':
-            printf("%f",a-b);
+            printf("%.0f",a-b);
             break;
         case '*':
-            printf("%f",a*b);
+            printf("%.0f",a*b);
             break;
         case '/':
             if(b==0){
                 printf("error\n");
             }
             else{
-                printf("%.0f\n",a/b);
+                printf("%.0f\n",(float)a/b);
             }
         break;
         default:
