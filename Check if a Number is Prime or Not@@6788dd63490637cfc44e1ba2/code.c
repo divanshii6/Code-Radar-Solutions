@@ -9,8 +9,9 @@ int main(){
             break;
         }
         
-    }
+    
     if(a/2==i){
         printf("Prime");
+    }
     }
 }
