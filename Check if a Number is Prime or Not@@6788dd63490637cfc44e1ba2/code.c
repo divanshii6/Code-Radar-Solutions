@@ -7,10 +7,8 @@ int main(){
         if(a%i==0){
             printf("Not Prime");
             break;
-        }
-        
-    
-    if(a/2==i){
+        }  
+    if(i==a/2+1){
         printf("Prime");
     }
     }
