@@ -8,9 +8,9 @@ int main(){
             printf("Not Prime");
             break;
         }
-        else if(a/2==i){
-            printf("Prime");
-        }
-        break;
+        
+    }
+    if(a/2==i){
+        printf("Prime");
     }
 }
