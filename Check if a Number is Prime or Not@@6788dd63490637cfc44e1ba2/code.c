@@ -14,16 +14,20 @@ int main() {
     // Check for divisibility from 2 to sqrt(num)
     for (int i = 2; i * i <= num; i++) {
         if (num % i == 0) {
-            isPrime = 0;
+            printf("Not Prime")
             break;
         }
+
+    }
+    else{
+        printf("Prime");
     }
     
     // Print result in required format
-    if (isPrime)
-        printf("Prime");
-    else
-        printf("Not Prime");
+    // if (isPrime)
+    //     printf("Prime");
+    // else
+    //     printf("Not Prime");
     
     return 0;
 }
