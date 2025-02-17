@@ -21,11 +21,11 @@ int main() {
     }
     
     
-    // Print result in required format
-    // if (isPrime)
-    //     printf("Prime");
-    // else
-    //     printf("Not Prime");
+    Print result in required format
+    if (isPrime)
+        printf("Prime");
+    else
+        printf("Not Prime");
     
     return 0;
 }
