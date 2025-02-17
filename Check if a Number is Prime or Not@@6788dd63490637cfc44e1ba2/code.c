@@ -19,9 +19,6 @@ int main() {
         }
 
     }
-    
-    
-    Print result in required format
     if (isPrime)
         printf("Prime");
     else
