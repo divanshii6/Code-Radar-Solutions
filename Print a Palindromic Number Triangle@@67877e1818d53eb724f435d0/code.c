@@ -1,21 +1,17 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    int n, i, j;
-    
-    // Input the number of rows
+    int n;
     scanf("%d", &n);
     
-    // Loop for each row
-    for(i = 1; i <= n; i++) {
-        // First part: increasing numbers
-        for(j = 1; j <= i; j++) {
+    for (int i = 1; i <= n; i++) {
+        // Print increasing sequence: 1 to i
+        for (int j = 1; j <= i; j++) {
             printf("%d", j);
         }
         
-        // Second part: decreasing numbers (excluding the middle number)
-        for(j = i-1; j >= 1; j--) {
+        // Print decreasing sequence: i-1 down to 1
+        for (int j = i-1; j >= 1; j--) {
             printf("%d", j);
         }
         
