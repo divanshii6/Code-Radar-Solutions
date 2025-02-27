@@ -6,6 +6,9 @@ int main() {
     
     for (int i = 1; i <= n; i++) {
         // Print increasing sequence: 1 to i
+        for(k=1;k<=n-i;k++){
+            printf(" ");
+        }
         for (int j = 1; j <= i; j++) {
             printf("%d", j);
         }
