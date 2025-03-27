@@ -13,6 +13,7 @@ int main(){
             
             int c=i;
             result =1;
+            break;
         }
     }
     if(result=1){
