@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 
 int main() {
@@ -10,14 +11,17 @@ int main() {
     }
     
     int max = a[0];
-    int smax = a[0];  // Initialize to a value less than any possible input
+    int smax = -1;
     
     for (i = 0; i < n; i++) {
         if (a[i] > max) {
             smax = max;
             max = a[i];
         }
-        else if (a[i] > smax && a[i] < max) {
+    }
+    
+    for (i = 0; i < n; i++) {
+        if (a[i] > smax && a[i] < max) {
             smax = a[i];
         }
     }
