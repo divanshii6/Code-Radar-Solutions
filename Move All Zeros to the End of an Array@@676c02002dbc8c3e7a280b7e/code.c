@@ -13,6 +13,7 @@ int main(){
                 int temp=a[j-i];
                 a[j-i]=a[i];
                 a[i]=temp;
+                break;
             }
         }
     }
