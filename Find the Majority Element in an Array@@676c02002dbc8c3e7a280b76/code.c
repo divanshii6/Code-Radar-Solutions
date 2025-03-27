@@ -10,19 +10,12 @@ int main(){
     for(i=0;i<n;i++){
         for(j=1;j<n;j++){
             if(a[i]==a[j]){
-                check++;
-                if(check>(n/2)){
-                   c=1;
-                    // break;
-                }
-                else{
-                    c=0;
-                }
+               check++;
             }
             
         }
     }
-    if(c=1){
+    if(check>(n/2)){
         printf("%d",i);
     }
     else{
