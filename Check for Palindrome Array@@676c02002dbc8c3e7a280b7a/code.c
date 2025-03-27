@@ -1,7 +1,9 @@
 // Your code here...
 #include<stdio.h>
+#include<stdbool.h>
 int main(){
     int i,j,n;
+    bool fact=false;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++){
@@ -9,12 +11,15 @@ int main(){
     }
     for(i=0,j=n;i<j;i++,j--){
         if(a[i]==a[j]){
-            printf("YES");
+           fact=true;
             break;
         }
-        else{
-            printf("NO");
-            break;
-        }
+        
+    }
+    if(fact==true){
+        printf("YES");
+    }
+    else{
+        printf("NO");
     }
 }
