@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
-void reverse(int a,int si,ei){
- for(int i=si,j=ei;i<j;i++,j--){
+void reverse(int a[],int si,ei){
+ for(int i=si,int j=ei;i<j;i++,j--){
         int temp=a[i];
         a[i]=a[j];
         a[j]=temp;
@@ -15,7 +15,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     scanf("%d",&k);
-    k=k%10;
+    k=k%n;
     reverse(a,0,n-1);
     reverse(a,0,k-1);
     reverse(a,k,n-1);
