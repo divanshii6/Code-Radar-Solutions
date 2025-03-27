@@ -7,7 +7,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    scanf("%d",te);
+    scanf("%d",&te);
     for(i=0;i<n;i++){
         if(k==a[i] && k!=a[i]){
             result =1;
