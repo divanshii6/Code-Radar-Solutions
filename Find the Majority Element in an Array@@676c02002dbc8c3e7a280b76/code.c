@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int i,j,n,check=0,check1=0;
+    int i,j,n,check=0,check1=0,c=0;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++){
@@ -12,14 +12,20 @@ int main(){
             if(a[i]==a[j]){
                 check++;
                 if(check>(n/2)){
-                    printf("%d",i);
+                   c=1;
                     break;
                 }
                 else{
-                    printf("%d",check1);
+                    c=0;
                 }
             }
             
         }
+    }
+    if(c=1){
+        printf("%d",i);
+    }
+    else{
+        printf("%d",check1);
     }
 }
