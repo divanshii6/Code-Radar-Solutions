@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int i,j,n;
+    int i,j,n,c=0;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++){
@@ -9,9 +9,12 @@ int main(){
     }
     for(i=0;i<n;i++){
         if(a[i]%2==0){
-            i++;
+            c=c+1;
+        }
+        else{
+            c=0;
         }
     }
-    j=n-i;
-    printf("%d %d",i,j);
+    j=n-c;
+    printf("%d %d",c,j);
 }
