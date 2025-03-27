@@ -11,6 +11,7 @@ int main(){
         for(j=1;j<n;j++){
             if(a[i]==a[j]){
                check++;
+               break;
             }
             
         }
