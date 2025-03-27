@@ -12,7 +12,7 @@ int main(){
             if(a[i]==0){
                 int temp=a[i];
                 a[i]=a[j-i];
-                a[j]=temp;
+                a[j-i]=temp;
             }
         }
     }
