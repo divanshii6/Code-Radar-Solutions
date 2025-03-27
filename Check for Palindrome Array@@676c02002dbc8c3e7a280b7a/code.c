@@ -14,7 +14,7 @@ int main(){
         }
         
     }
-    if(c=1){
+    if(c==1){
         printf("YES");
     }
     else{
