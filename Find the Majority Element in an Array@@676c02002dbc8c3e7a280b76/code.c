@@ -13,7 +13,7 @@ int main(){
                 check++;
                 if(check>(n/2)){
                    c=1;
-                    break;
+                    // break;
                 }
                 else{
                     c=0;
