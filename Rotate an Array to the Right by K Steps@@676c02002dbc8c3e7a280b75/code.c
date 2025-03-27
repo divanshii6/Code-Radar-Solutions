@@ -1,5 +1,12 @@
 // Your code here...
 #include<stdio.h>
+void reverse(int a,int si,ei){
+ for(int i=si,j=ei;i<j;i++,j--){
+        int temp=a[i];
+        a[i]=a[j];
+        a[j]=temp;
+    }
+}
 int main(){
     int i,j,n,k;
     scanf("%d",&n);
@@ -8,11 +15,10 @@ int main(){
         scanf("%d",&a[i]);
     }
     scanf("%d",&k);
-    for(i=0,j=k;i<j;i++,j--){
-        int temp=a[i];
-        a[i]=a[j];
-        a[j]=temp;
-    }
+    k=k%10;
+    reverse(a,0,n-1);
+    reverse(a,0,k-1);
+    reverse(a,k,n-1);
     for(i=0;i<n;i++){
         printf("%d ",a[i]);
     }
