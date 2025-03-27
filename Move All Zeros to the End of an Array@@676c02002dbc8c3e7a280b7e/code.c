@@ -11,7 +11,7 @@ int main(){
         for(j=1;j<n;j++){
             if(a[i]==0){
                 int temp=a[i];
-                a[i]=a[j];
+                a[i]=a[j-i];
                 a[j]=temp;
             }
         }
