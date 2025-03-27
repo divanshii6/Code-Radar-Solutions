@@ -9,7 +9,7 @@ int main(){
     }
     scanf("%d",&te);
     for(i=0;i<n;i++){
-        if(k==a[i] && k!=a[i]){
+        if(te==a[i] && te!=a[i]){
             result =1;
             int c=i;
         }
