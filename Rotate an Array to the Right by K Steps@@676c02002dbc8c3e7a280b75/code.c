@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-void reverse(int a[],int si,ei){
+void reverse(int a[],int si,int ei){
  for(int i=si,int j=ei;i<j;i++,j--){
         int temp=a[i];
         a[i]=a[j];
