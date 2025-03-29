@@ -10,7 +10,7 @@ int main(){
             break;
         }
         if(a[i]<=a[i+1]){
-            int temp=int a[i];
+            int temp= a[i];
             a[i]=a[i+1];
             a[i+1]=temp;
             int ans=a[n-1]*a[n-2];
