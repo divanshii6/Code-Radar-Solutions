@@ -12,12 +12,18 @@ int main(){
         int original =a[i];
         int temp=a[i];
         // if(a[i]==a[i]){
+            if(a[i]==0){
+                ans=1;
+            }
+            else{
             for(;temp>0;temp=temp/10){
                 int d1=temp%10;
                 rev=rev*10+d1;
                 if(rev==original){
                     ans++;
                 }
+            }
+        
             // }
         }
 
