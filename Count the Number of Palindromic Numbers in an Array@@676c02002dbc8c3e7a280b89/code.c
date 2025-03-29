@@ -8,14 +8,16 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++){
-        if(a[i]==a[i]){
-            for(;a[i]>0;a[i]=a[i]/2){
-                int d1=a[i]%10;
+        int original =a[i]
+        int temp=a[i];
+        // if(a[i]==a[i]){
+            for(;temp>0;temp=temp/10){
+                int d1=temp%10;
                 rev=rev*10+d1;
-                if(rev==a[i]){
+                if(rev==temp){
                     ans++;
                 }
-            }
+            // }
         }
 
     }
