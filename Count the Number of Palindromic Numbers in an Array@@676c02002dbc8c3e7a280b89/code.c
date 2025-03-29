@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++){
-        int original =a[i]
+        int original =a[i];
         int temp=a[i];
         // if(a[i]==a[i]){
             for(;temp>0;temp=temp/10){
