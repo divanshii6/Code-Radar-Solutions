@@ -7,7 +7,7 @@ int main(){
     for(i=0;i<n;i++){
         int temp=a[i];
         while(temp>0){
-            d1=temp%10;
+            int d1=temp%10;
             sum=sum+a[i];
             temp=temp/10;
             b[idx]=sum;
