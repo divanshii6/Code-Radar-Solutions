@@ -11,8 +11,8 @@ int main(){
         for(j=0;j<n-i-1;j++){
             if(a[i]==0){
                 int temp=a[i];
-                a[i]=a[j];
-                a[j]=temp;
+                a[i]=a[j+1];
+                a[j+1]=temp;
             
             }
         }
