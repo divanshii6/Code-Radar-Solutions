@@ -13,8 +13,9 @@ int main(){
         while(temp>0){
             int d1=temp%10;
             sum=sum+d1;
-            temp=temp/10;
+            
             b[idx]=sum;
+            temp=temp/10;
             idx++;
         }
         }
