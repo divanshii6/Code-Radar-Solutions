@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int i,j,k,n;
+    int i,j,k,n,ans;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n-1;i++){
@@ -13,7 +13,7 @@ int main(){
             int temp= a[i];
             a[i]=a[i+1];
             a[i+1]=temp;
-            int ans=a[n-1]*a[n-2];
+             ans=a[n-1]*a[n-2];
         }
     }
     printf("%d",ans);
