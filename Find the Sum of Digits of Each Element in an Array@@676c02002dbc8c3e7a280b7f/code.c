@@ -10,12 +10,12 @@ int main(){
     for(i=0;i<n;i++){
         int temp=a[i];
         if(a[i]>0){
-        while(temp>0){
+        while(temp>=0){
             int d1=temp%10;
             sum=sum+d1;
-            
             b[idx]=sum;
-            temp=temp/10;
+             temp=temp/10;
+           
             idx++;
         }
         }
