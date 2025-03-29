@@ -12,7 +12,7 @@ int main(){
         if(a[i]>0){
         while(temp>0){
             int d1=temp%10;
-            sum=sum+a[i];
+            sum=sum+d1;
             temp=temp/10;
             b[idx]=sum;
             idx++;
