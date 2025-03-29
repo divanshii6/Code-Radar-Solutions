@@ -21,5 +21,12 @@ int main(){
        }
 }
  ans=a[0]*a[1];
+ ans1=a[n-1]*a[n-2];
+ if(ans>ans1){
+    printf("%d",ans);
+ }
+ else{
+    printf("%d",ans1);
+ }
 printf("%d",ans);
 }
