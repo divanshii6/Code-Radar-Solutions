@@ -28,5 +28,5 @@ int main(){
  else{
     printf("%d",ans1);
  }
-printf("%d",ans);
+// printf("%d",ans);
 }
