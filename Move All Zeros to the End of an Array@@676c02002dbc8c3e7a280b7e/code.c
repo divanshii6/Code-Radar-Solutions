@@ -10,9 +10,9 @@ int main(){
     for(i=0;i<n;i++){
         for(j=1;j<n;j++){
             if(a[i]==0){
-                int temp=a[j-i];
-                a[j-i]=a[i];
-                a[i]=temp;
+                int temp=a[i];
+                a[i]=a[j];
+                a[j]=temp;
                 break;
             }
         }
