@@ -18,12 +18,13 @@ int main() {
             smax = max;
             max = a[i];
         }
-    }
     
-    for (i = 0; i < n; i++) {
-        if (a[i] > smax && a[i] < max) {
+    
+   
+       else if (a[i] > smax && a[i] < max) {
             smax = a[i];
         }
+    }
     }
     
     printf("%d", smax);
