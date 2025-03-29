@@ -16,10 +16,10 @@ int main(){
         }
     }
     if(check==0){
-        printf("Not Sorted");
+        printf(" Sorted");
     }
     else{
-        printf("Sorted");
+        printf("Not Sorted");
     }
     
 
