@@ -20,6 +20,6 @@ int main(){
            }
        }
 }
-int ans=a[0]*a[1];
+ ans=a[0]*a[1];
 printf("%d",ans);
 }
