@@ -8,11 +8,11 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++){
-        for(j=1;j<n;j++){
-            if(a[i]<=a[j]){
+        // for(j=1;j<n;j++){
+            if(a[i]<=a[i+1]){
                 check=1;
                 break;
-            }
+            // }
         }
     }
     if(check==1){
