@@ -7,7 +7,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    for(i=0;i<=n;i++){
+    for(i=0;i<n;i++){
         // for(j=1;j<n;j++){
             if(a[i]<=a[i+1]){
                 check=1;
@@ -15,11 +15,11 @@ int main(){
             // }
         }
     }
-    if(check==1){
-        printf("Sorted");
+    if(check==0){
+        printf("Not Sorted");
     }
     else{
-        printf("Not Sorted");
+        printf("Sorted");
     }
     
 
