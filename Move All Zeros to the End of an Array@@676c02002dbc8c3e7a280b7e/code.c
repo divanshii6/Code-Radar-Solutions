@@ -9,7 +9,7 @@ int main(){
     }
     for(i=0;i<n-1;i++){
         for(j=0;j<n-i-1;j++){
-            if(a[i]==0){
+            if(a[j]==0){
                 int temp=a[i];
                 a[i]=a[j+1];
                 a[j+1]=temp;
