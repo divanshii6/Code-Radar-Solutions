@@ -7,7 +7,7 @@ int main(){
     int a[n];
     for(i=0;i<n;i++){
       
-        if(k==a[i]){
+        if(k<a[i]){
             num++;
         }
     }
