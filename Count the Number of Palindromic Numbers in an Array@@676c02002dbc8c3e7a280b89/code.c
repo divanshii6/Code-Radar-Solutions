@@ -9,7 +9,7 @@ int main(){
     }
     for(i=0;i<n;i++){
         if(a[i]==a[i]){
-            for(;a[i]>;a[i]=a[i]/2){
+            for(;a[i]>0;a[i]=a[i]/2){
                 int d1=a[i]%10;
                 rev=rev*10+d1;
                 if(rev==a[i]){
