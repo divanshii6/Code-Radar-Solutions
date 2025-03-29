@@ -13,7 +13,7 @@ int main(){
             int temp= a[i];
             a[i]=a[i+1];
             a[i+1]=temp;
-             ans=a[n-1]*a[n-2];
+             ans=a[n-3]*a[n-2];
         }
     }
     printf("%d",ans);
