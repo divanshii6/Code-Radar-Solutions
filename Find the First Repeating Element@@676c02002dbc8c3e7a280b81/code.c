@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int i,j,k,n;
+    int i,j,k,n,ans;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++){
@@ -10,7 +10,7 @@ int main(){
     for(i=0;i<n;i++){
         for(j=1;j<n;j++){
         if(a[i]==a[j]){
-            int ans=a[i];
+             ans=a[i];
             break;
         }
         }
