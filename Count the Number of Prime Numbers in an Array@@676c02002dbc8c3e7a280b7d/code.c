@@ -19,9 +19,10 @@ int main(){
             } 
         }
         }if(count==0){
-            ans++;
+            ans=ans+1;
        
        }
     }
     printf("%d",ans);
+    return 0;
 }
