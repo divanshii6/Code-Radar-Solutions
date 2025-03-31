@@ -21,7 +21,7 @@ int main() {
     
     
    
-       else if (a[i] > smax && a[i] < max) {
+       else if (a[i] > smax && a[i] != max) {
             smax = a[i];
         }
     
