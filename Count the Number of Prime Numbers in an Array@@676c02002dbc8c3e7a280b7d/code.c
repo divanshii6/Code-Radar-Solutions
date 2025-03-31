@@ -15,7 +15,7 @@ int main(){
         for(j=2;j<a[j];j++){
             if(a[i]%j==0){
                 count++;
-                // break;
+                break;
             } 
         }
         }if(count==0){
