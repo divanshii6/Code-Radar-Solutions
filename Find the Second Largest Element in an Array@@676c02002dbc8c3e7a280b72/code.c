@@ -11,7 +11,7 @@ int main() {
     }
     
     int max = a[0];
-    int smax = -1;
+    int smax = a[0];
     
     for (i = 0; i < n; i++) {
         if (a[i] > max) {
