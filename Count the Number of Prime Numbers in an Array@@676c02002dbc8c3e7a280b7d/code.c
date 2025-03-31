@@ -15,11 +15,11 @@ int main(){
             if(a[i]%j==0){
                 count++;
                 break;
-            }
-        }
-        if(count==0){
+            } if(count==0){
             ans++;
         }
+        }
+       
        }
     }
     printf("%d",result);
