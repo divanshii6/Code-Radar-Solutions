@@ -17,11 +17,11 @@ int main(){
                 count=count+1;
                 break;
             } 
-        }f(count==0){
+        }if(count==0){
             ans=ans+1;
        
        }
-        }i
+        }
     }
     printf("%d",ans);
     return 0;
