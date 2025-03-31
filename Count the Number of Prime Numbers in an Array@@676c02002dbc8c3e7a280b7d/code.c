@@ -14,14 +14,14 @@ int main(){
          count=0;
         for(j=2;j<a[i];j++){
             if(a[i]%j==0){
-                count++;
+                count=count+1;
                 break;
             } 
-        }
-        }if(count==0){
+        }f(count==0){
             ans=ans+1;
        
        }
+        }i
     }
     printf("%d",ans);
     return 0;
