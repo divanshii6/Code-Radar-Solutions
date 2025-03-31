@@ -20,7 +20,7 @@ int main(){
     scanf("%d",&k);
     reverse(a,0,n);
     reverse(a,0,k-1);
-    reverse(a,k,n-1);
+    reverse(a,k,n);
      for(i=0;i<n;i++){
         printf("%d\n",a[i]);
     }
