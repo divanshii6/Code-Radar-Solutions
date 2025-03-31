@@ -9,9 +9,10 @@ int main(){
     }
     int ans=0;
     for(i=0;i<n;i++){
-        int count=0;
+        
        if(a[i]>1){
-        for(j=2;j<n;j++){
+        int count=0;
+        for(j=2;j<a[j];j++){
             if(a[i]%j==0){
                 count++;
                 // break;
