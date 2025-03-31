@@ -8,6 +8,9 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(i=1;i<=n;i++){
+        if(a[i]==1 || a[i]==2){
+            result=1;
+        }
         if(a[i]%i!=0){
             result++;
         }
