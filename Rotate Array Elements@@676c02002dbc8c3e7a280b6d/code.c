@@ -11,17 +11,17 @@ void reverse(int a[],int si,int ei){
 }
 int main(){
     int i,j,k,n;
-    scanf("%d",&n);
+    scanf("%d\n",&n);
     int a[n];
     for(i=0;i<n;i++){
-        scanf("%d",&a[i]);
+        scanf("%d\n",&a[i]);
     }
     scanf("%d",&k);
     reverse(a,0,n);
     reverse(a,0;k-1);
     reverse(a,k,n-1);
      for(i=0;i<n;i++){
-        printf("%d",a[i]);
+        printf("%d\n",a[i]);
     }
     return 0;
 }
