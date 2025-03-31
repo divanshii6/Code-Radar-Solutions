@@ -12,7 +12,7 @@ int main(){
         
        if(a[i]>1){
          count=0;
-        for(j=2;j<a[j];j++){
+        for(j=2;j<a[i];j++){
             if(a[i]%j==0){
                 count++;
                 break;
