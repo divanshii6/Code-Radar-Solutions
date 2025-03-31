@@ -7,13 +7,20 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    for(i=1;i<=n;i++){
-        if(a[i]==1 || a[i]==2){
-            result=1;
+    int ans=0;
+    for(i=0;i<n;i++){
+        int count=0;
+       if(a[i]>1){
+        for(j=2;j<n;j++){
+            if(a[i]%j==0){
+                count++;
+                break;
+            }
         }
-        if(a[i]%i!=0){
-            result++;
+        if(count==0){
+            ans++;
         }
+       }
     }
     printf("%d",result);
 }
