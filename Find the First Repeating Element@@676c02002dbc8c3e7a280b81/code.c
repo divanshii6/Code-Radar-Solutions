@@ -10,9 +10,10 @@ int main(){
     for(i=0;i<n;i++){
         for(j=1;j<n;j++){
         if(a[i]==a[j]){
-            printf("%d",a[i]);
+            int ans=a[i];
             break;
         }
         }
     }
+    printf("%d",ans);
 }
