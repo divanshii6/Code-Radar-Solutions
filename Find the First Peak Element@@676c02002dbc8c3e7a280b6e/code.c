@@ -8,8 +8,8 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(i=0;i<n-1;i++){
-       if(ans<a[i+1]){
-        ans=a[i+1];
+       if(a[0]<a[i]){
+        ans=a[i];
         check=1;
         break;
        }
