@@ -7,14 +7,21 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    for(i=1;i<=n;i++){
-        sum=sum+i;
-    }
-    for(i=0;i<n;i++){
-        if(a[i]>=0){
-            sum1=sum+a[i];
+    for(i=0,i<n-1;i++){
+        for(j=0;j=n-i-1;j++){
+            if(a[j]>a[j+1]){
+                int temp=a[j];
+                a[j]=a[j+1];
+                a[j+1]=temp;
+            }
         }
-    }
-    int ans =sum-sum1;
-    printf("%d",ans);
+        if(i!=a[i]){
+            printf("%d",i);
+        }
+        else{
+            int ans =a[n]+1;
+            printf("%d",ans);
+        }
+      
+}
 }
