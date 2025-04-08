@@ -14,15 +14,15 @@ int main(){
                 a[j]=a[j+1];
                 a[j+1]=temp;
             }
-        
-        if(a[j]==ans){
+        }  
+}
+for(i=0;i<n;i++){
+    if(a[i]==ans){
             ans++;
         }
-        else if(a[j]>ans){
+        else if(a[i]>ans){
             break;
         }
-        }
-    
 }
 printf("%d",ans);
 return 0;
