@@ -14,12 +14,13 @@ int main(){
                 a[j]=a[j+1];
                 a[j+1]=temp;
             }
-        }
-        if(a[i]==ans){
+        
+        if(a[j]==ans){
             ans++;
         }
-        else if(a[i]>ans){
+        else if(a[j]>ans){
             break;
+        }
         }
     
 }
