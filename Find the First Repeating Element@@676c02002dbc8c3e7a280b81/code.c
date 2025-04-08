@@ -9,8 +9,8 @@ int main(){
     }
     for(i=0;i<n;i++){
         for(j=1;j<n;j++){
-        if(a[i]==a[j]){
-             ans=a[i];
+        if(a[0]==a[j]){
+             ans=a[j];
             break;
         }
         }
