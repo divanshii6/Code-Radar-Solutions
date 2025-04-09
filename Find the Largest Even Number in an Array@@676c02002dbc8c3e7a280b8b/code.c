@@ -19,9 +19,10 @@ int main(){
                 int temp=b[j];
                 b[j]=b[j+1];
                 b[j+1]=temp;
-                ans=b[idx-1];
+               
             }
         }
     }
+     ans=b[idx-1];
     printf("%d",ans);
 }
