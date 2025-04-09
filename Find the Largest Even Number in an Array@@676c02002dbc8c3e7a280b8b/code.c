@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int i,j,k,n,ans;
+    int i,j,k,n,ans=-1;
     scanf("%d",&n);
     int a[n],idx=0,b[idx];
     for(i=0;i<n;i++){
@@ -22,10 +22,10 @@ int main(){
                 int temp=b[j];
                 b[j]=b[j+1];
                 b[j+1]=temp;
+                 ans=b[idx-1];
                
             }
         }
     }
-     ans=b[idx-1];
     printf("%d",ans);
 }
