@@ -15,6 +15,7 @@ int main(){
     }
     if(idx==0){
         printf("-1");
+        return 0;
     }
     for(i=0;i<idx;i++){
         for(j=0;j<idx-i-1;j++){
