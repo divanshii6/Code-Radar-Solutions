@@ -22,7 +22,7 @@ int main(){
     }
     else{
       int  b=n/2;
-      ans=(a[b]+a[b+1])/2;
+     int  ans=(a[b]+a[b+1])/2;
       printf("%d",ans);
     }
 }
