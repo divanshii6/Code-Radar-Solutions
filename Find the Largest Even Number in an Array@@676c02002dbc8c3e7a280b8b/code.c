@@ -12,10 +12,6 @@ int main(){
             b[idx]=a[i];
             idx++;
         }
-        else{
-            printf("-1");
-            break;
-        }
     }
     for(i=0;i<idx;i++){
         for(j=0;j<n-idx-i;j++){
