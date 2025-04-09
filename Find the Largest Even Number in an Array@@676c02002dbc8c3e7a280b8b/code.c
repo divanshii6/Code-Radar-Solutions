@@ -12,9 +12,6 @@ int main(){
             b[idx]=a[i];
             idx++;
         }
-        else{
-            ans=-1;
-        }
     }
     for(i=0;i<idx;i++){
         for(j=0;j<idx-i-1;j++){
@@ -22,7 +19,6 @@ int main(){
                 int temp=b[j];
                 b[j]=b[j+1];
                 b[j+1]=temp;
-                 ans=b[idx-1];
                
             }
         }
