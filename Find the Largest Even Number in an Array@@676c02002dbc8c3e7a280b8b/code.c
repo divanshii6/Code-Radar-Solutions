@@ -14,7 +14,7 @@ int main(){
         }
     }
     for(i=0;i<idx;i++){
-        for(j=0;j<n-idx-i;j++){
+        for(j=0;j<n-i-1;j++){
             if(b[j]>b[j+1]){
                 int temp=b[j];
                 b[j]=b[j+1];
