@@ -23,5 +23,5 @@ int main(){
             }
         }
     }
-    printf("%d", b[idx-1];);
+    printf("%d", b[idx-1]);
 }
