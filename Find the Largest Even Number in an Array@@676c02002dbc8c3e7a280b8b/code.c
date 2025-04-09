@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int i,j,k,n,ans=-1;
+    int i,j,k,n,ans;
     scanf("%d",&n);
     int a[n],idx=0,b[idx];
     for(i=0;i<n;i++){
@@ -11,6 +11,9 @@ int main(){
         if(a[i]%2==0){
             b[idx]=a[i];
             idx++;
+        }
+        else{
+            ans=-1;
         }
     }
     for(i=0;i<idx;i++){
