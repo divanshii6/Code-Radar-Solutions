@@ -13,6 +13,9 @@ int main(){
             idx++;
         }
     }
+    if(idx==0){
+        printf("-1");
+    }
     for(i=0;i<idx;i++){
         for(j=0;j<idx-i-1;j++){
             if(b[j]>b[j+1]){
