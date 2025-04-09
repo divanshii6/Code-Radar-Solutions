@@ -15,10 +15,10 @@ int main(){
     }
     for(i=0;i<idx;i++){
         for(j=0;j<n-idx-i;j++){
-            if(a[j]>a[j+1]){
-                int temp=a[j];
-                a[j]=a[j+1];
-                a[j+1]=temp;
+            if(b[j]>b[j+1]){
+                int temp=b[j];
+                b[j]=b[j+1];
+                b[j+1]=temp;
             }
         }
     }
