@@ -15,5 +15,5 @@ for(i=0;i<n;i++){
     }
   }
 }
-printf("%d %d",a,b);
+printf("%d %d",a1,b1);
 }
