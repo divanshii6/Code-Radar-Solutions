@@ -11,6 +11,7 @@ int main(){
             if(a[i]==a[j]){
                 count++;
                 ans=a[i];
+                break;
             }
         }
     }
