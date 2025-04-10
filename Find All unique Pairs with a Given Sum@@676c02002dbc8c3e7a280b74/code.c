@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int i,j,k,n,a1,b1;
+    int i,j,k,n,a1,b1,found=0;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++){
@@ -9,12 +9,17 @@ int main(){
 scanf("%d",&k);
 for(i=0;i<n;i++){
   for(j=i+1;j<n;j++){
-    if(a[0]+a[j]==k){
+    if(a[i]+a[j]==k){
         a1=a[i];
         b1=a[j];
-        // break;
+        found=1;
+        break;
     }
   }
+  if(found){
+    break;
+  }
 }
-printf("%d %d",a1,b1);
+if(found){
+printf("%d %d",a1,b1);}
 }
