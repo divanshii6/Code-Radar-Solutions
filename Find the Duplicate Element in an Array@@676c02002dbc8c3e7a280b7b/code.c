@@ -14,6 +14,9 @@ int main(){
                 break;
             }
         }
+        if(count>0){
+            break;
+        }
     }
     if(count!=0){
         printf("%d",ans);
