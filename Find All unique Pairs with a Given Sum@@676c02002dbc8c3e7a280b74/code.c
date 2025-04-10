@@ -13,13 +13,13 @@ for(i=0;i<n;i++){
         a1=a[i];
         b1=a[j];
         printf("%d %d\n",a1,b1);
-        // found=1;
+        found=1;
         // break;
     }
   }
-//   if(found){
-//     break;
-//   }
+  if(found){
+    break;
+  }
 }
 // if(found){
 // printf("%d %d",a1,b1);}
