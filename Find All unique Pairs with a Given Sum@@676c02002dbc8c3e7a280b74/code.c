@@ -9,10 +9,10 @@ int main(){
 scanf("%d",&k);
 for(i=0;i<n;i++){
   for(j=i+1;j<n;j++){
-    if(a[i]+a[j]==k){
+    if(a[0]+a[j]==k){
         a1=a[i];
         b1=a[j];
-        break;
+        // break;
     }
   }
 }
