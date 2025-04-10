@@ -6,10 +6,12 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    for(i=0,j=n-1;i<j;i++,j--){
-        if(a[i]==a[j]){
-            count++;
-            ans=a[i];
+    for(i=0;i<n;i++){
+        for(j=1;j<n;j++){
+            if(a[i]==a[j]){
+                count++;
+                ans=a[i];
+            }
         }
     }
     if(count!=0){
