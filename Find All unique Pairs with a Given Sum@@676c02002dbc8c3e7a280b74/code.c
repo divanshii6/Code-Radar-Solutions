@@ -12,9 +12,9 @@ for(i=0;i<n;i++){
     if(a[i]+a[j]==k){
         a1=a[i];
         b1=a[j];
-        printf("%d %d",a1,b1);
+        // printf("%d %d",a1,b1);
     }
   }
 }
-// printf("%d %d",a1,b1);
+printf("%d %d",a1,b1);
 }
