@@ -11,6 +11,7 @@ int main(){
     for(i=0;i<size;i++){
         if(a[i]!=' '){
             ans1=ans1+i;
+            break;
         }
     }
     printf("%d",ans1);
