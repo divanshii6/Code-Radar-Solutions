@@ -10,7 +10,7 @@ int main(){
         k++;
     }
     int i,j;
-    for(i=0;j=size-1;i<=j;i++,j--){
+    for(i=0,j=size-1;i<=j;i++,j--){
         char temp=a[i];
         a[i]=a[j];
         a[j]=temp;
