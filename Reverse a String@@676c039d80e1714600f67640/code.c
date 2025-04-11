@@ -3,7 +3,8 @@
 int main(){
     char str[100];
     scanf("%[^/n]s",str);
-    int i=0;size=0,k;
+    int i=0;
+    int size=0;
     while(str[i]!='\0'){
         size++;
         i++;
