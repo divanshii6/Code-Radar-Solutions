@@ -6,10 +6,9 @@ int main(){
     int k,size=0,i,j,ans=0;
     while(a[k]!='\0'){
         size++;
-      
         k++;
     }
-    for(i=0,j=size-1;i<j;i++,j--){
+    for(i=0,j=size-1;i<=j;i++,j--){
         if(a[i]==a[j]){
             ans=1;
         }
