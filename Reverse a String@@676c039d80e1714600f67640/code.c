@@ -3,12 +3,13 @@
 int main(){
     char str[100];
     scanf("%[^/n]s",str);
-    int i=0;
+    int k=0;
     int size=0;
-    while(str[i]!='\0'){
+    while(str[k]!='\0'){
         size++;
-        i++;
+        k++;
     }
+    int i,j;
     for(i=0;j=size-1;i<=j;i++,j--){
         char temp=a[i];
         a[i]=a[j];
