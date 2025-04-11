@@ -3,16 +3,16 @@
 int main(){
     char a[100];
     scanf("%[^\n]",a);
-    int k=0,size=0,i,j,ans=0;
+    int k=0,size=0,i,j,ans1=0;
     while(a[k]!='\0'){
         size++;
         k++;
     }
     for(i=0;i<size;i++){
-        if(a[i]==' '){
-            ans++;
+        if(a[i]!=' '){
+            ans1=ans1+i;
         }
     }
-    printf("%d",ans+1);
+    printf("%d",ans1);
     return 0;
 }
