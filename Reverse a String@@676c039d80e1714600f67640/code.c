@@ -11,9 +11,9 @@ int main(){
     }
     int i,j;
     for(i=0,j=size-1;i<=j;i++,j--){
-        char temp=a[i];
-        a[i]=a[j];
-        a[j]=temp;
+        char temp=str[i];
+        str[i]=str[j];
+        str[j]=temp;
     }
     printf("%s",str);
     return 0;
