@@ -11,13 +11,14 @@ int main(){
     for(i=0,j=size-1;i<j;i++,j--){
         if(a[i]!=a[j]){
             ans=0;
+            break;
         }
     }
-    if(ans==0){
-        printf("NO");
+    if(ans==1){
+        printf("YES");
     }
     else{
-        printf("YES");
+        printf("NO");
     }
     return 0;
 }
