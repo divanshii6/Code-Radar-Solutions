@@ -9,7 +9,7 @@ int main(){
         k++;
     }
     for(i=0;i<size;i++){
-        if(a[i]==" "){
+        if(a[i]==  ){
             ans++;
         }
     }
